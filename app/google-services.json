@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "393665644090",
+    "project_id": "pecabot-665b5",
+    "storage_bucket": "pecabot-665b5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393665644090:android:e61bc9b39e04c5a5aad703",
+        "android_client_info": {
+          "package_name": "com.example.elsoalkalmazasom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqvGUyx74Dz-y9X1orM_dGWlrcU6ctSUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393665644090:android:2f4d75189c08316caad703",
+        "android_client_info": {
+          "package_name": "com.example.pecabot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqvGUyx74Dz-y9X1orM_dGWlrcU6ctSUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
