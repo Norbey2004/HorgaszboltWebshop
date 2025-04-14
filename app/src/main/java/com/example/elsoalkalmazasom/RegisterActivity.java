@@ -50,7 +50,7 @@ public class RegisterActivity extends AppCompatActivity {
         Button buttonToLogin = findViewById(R.id.buttonToLogin);
         buttonToLogin.setOnClickListener(v -> {
             startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
-            finish(); // opcionális: ne lehessen visszalépni
+            finish();
         });
 
     }

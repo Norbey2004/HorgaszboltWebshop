@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Üdvözlő szöveg középen -->
+
     <TextView
         android:id="@+id/textViewWelcome"
         android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Kilépés gomb bal felső sarokban, kisebb méret -->
+
     <Button
         android:id="@+id/buttonLogout"
         android:layout_width="wrap_content"

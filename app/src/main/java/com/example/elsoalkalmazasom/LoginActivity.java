@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
         editTextEmail = findViewById(R.id.editTextEmail);
         editTextPassword = findViewById(R.id.editTextPassword);
         buttonLogin = findViewById(R.id.buttonLogin);
-        buttonToRegister = findViewById(R.id.buttonToRegister); // ⬅️ külön inicializálás
+        buttonToRegister = findViewById(R.id.buttonToRegister);
 
         auth = FirebaseAuth.getInstance();
 
@@ -50,7 +50,6 @@ public class LoginActivity extends AppCompatActivity {
                     });
         });
 
-        // ⬇️ Ez most már teljesen külön áll
         buttonToRegister.setOnClickListener(v -> {
             startActivity(new Intent(this, RegisterActivity.class));
         });
