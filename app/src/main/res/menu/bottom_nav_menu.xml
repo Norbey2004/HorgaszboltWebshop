@@ -1,0 +1,27 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+
+
+    <item
+        android:id="@+id/menu_shop"
+        android:icon="@drawable/shop"
+        android:title="Bolt" />
+
+    <item
+        android:id="@+id/menu_cart"
+        android:icon="@drawable/baseline_add_shopping_cart_24"
+        android:title="Kosár"  />  <!-- Ez lehet bármilyen meglévő kosár ikonod -->
+
+    <item
+    android:id="@+id/menu_add"
+    android:title="Hozzáadás"
+    android:icon="@drawable/ic_add"/>
+
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Kilépés" />
+
+
+</menu>

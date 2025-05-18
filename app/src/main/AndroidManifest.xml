@@ -28,6 +28,8 @@
 
         <!-- KÉSŐBBI FŐKÉPERNYŐ (pl. webshophoz) -->
         <activity android:name=".MainActivity" />
+        <activity android:name=".EditProductActivity" />
+
 
     </application>
 
